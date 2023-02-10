@@ -83,23 +83,6 @@ print( f'Вывод : {best_bush[-1]} лучшая комбинация')
 
 
 
-# print(bush_counts)
-# for i in range(0, len(bush_counts)+3):
-#     a = bush_counts[i] + bush_counts[i + 1] + bush_counts[i + 2]
-#     b = bush_counts[i + 1] + bush_counts[i + 2] + bush_counts[i + 3]
-#     c = bush_counts[i + 2] + bush_counts[i + 3] + bush_counts[i + 4]
-#     if a > b and a > c:
-#        best_bush.append(a)
-#        print(a)
-#     elif b > c and b > a:
-#         best_bush.append(b)
-#     else:
-#         best_bush.append(c)
-#         for j in range(0, len(best_bush)+2):
-#             if best_bush[j] > best_bush[j + 1]:
-#                 print(best_bush)
-#             else:
-#                 best_bush.remove(j)
 
 
 
